@@ -27,8 +27,7 @@ import { AppRoutes } from './app.routes';
     FormsModule,
     AppRoutes
 
-   
-   
+
   ],
   providers: [StocksService],
   bootstrap: [AppComponent]
