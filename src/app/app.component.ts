@@ -9,6 +9,7 @@ import { StocksService, StockInterface } from './services/stocks.service';
 export class AppComponent {
   title = 'stocks';
 
+  
  // Declara una propiedad como un arreglo de acciones
  stocks: Array<StockInterface> = [];
  constructor(service: StocksService) {
